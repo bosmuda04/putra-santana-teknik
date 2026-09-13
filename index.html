@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Dasar -->
+<title>Putra Santana Teknik - Service AC & Elektronik Probolinggo</title>
+<meta name="description" content="Jasa Service AC, Kulkas, Mesin Cuci, TV LED & Instalasi Listrik di Probolinggo. Garansi 1 bulan. Hubungi Putra Santana Teknik 08976300677.">
+<meta name="keywords" content="service ac probolinggo, cuci ac probolinggo, isi freon probolinggo, perbaikan kulkas probolinggo, putra santana teknik">
+
+<!-- Tampilan Saat Link Dibagikan ke WhatsApp / Sosmed -->
+<meta property="og:title" content="Putra Santana Teknik - Service AC Probolinggo">
+<meta property="og:description" content="Melayani service AC, kulkas, mesin cuci, TV LED, dan instalasi listrik di Kota Probolinggo.">
+<meta property="og:image" content="service-ac.jpg">
+    <title>Putra Santana Teknik - Service AC</title>
+
+    <style>
+        /* 1. BASE & RESET CSS */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                url("service-ac.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        img, picture, video, canvas, svg {
+            display: block;
+            max-width: 100%;
+        }
+
+        input, button, textarea, select {
+            font: inherit;
+        }
+
+        /* 2. NAVIGASI */
+        nav {
+            width: 100%;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.75);
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #20bfff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #20bfff;
+        }
+
+        /* 3. HERO SECTION */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 100px 20px 50px;
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.75);
+            padding: 45px;
+            border-radius: 20px;
+            max-width: 850px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #20bfff;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 8px;
+            border-radius: 30px;
+            background: #20bfff;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #008dcc;
+            transform: scale(1.05);
+        }
+
+        .btn-wa {
+            background: #25D366;
+        }
+
+        .btn-wa:hover {
+            background: #159447;
+        }
+
+        /* 4. LAYANAN */
+        .layanan {
+            padding: 80px 8%;
+            background: rgba(0, 0, 0, 0.85);
+            text-align: center;
+        }
+
+        .layanan h2 {
+            font-size: 35px;
+            color: #20bfff;
+            margin-bottom: 40px;
+        }
+
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .service-card {
+            background: #111;
+            padding: 30px 20px;
+            border-radius: 15px;
+            border: 2px solid #20bfff;
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(32, 191, 255, 0.3);
+        }
+
+        .service-card h3 {
+            margin-bottom: 12px;
+            color: #20bfff;
+        }
+
+        .service-card p {
+            line-height: 1.5;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            display: inline-block;
+            background: #20bfff;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin-top: auto;
+        }
+
+        /* 5. TENTANG */
+        .tentang {
+            padding: 80px 15%;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.75);
+        }
+
+        .tentang h2 {
+            color: #20bfff;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+
+        .tentang p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        /* 6. KONTAK */
+        .kontak {
+            padding: 80px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.9);
+        }
+
+        .kontak h2 {
+            font-size: 35px;
+            color: #20bfff;
+            margin-bottom: 20px;
+        }
+
+        .nomor {
+            font-size: 25px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        /* 7. FOOTER */
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+
+        /* 8. RESPONSIVE (MOBILE) */
+        @media (max-width: 768px) {
+            nav {
+                padding: 15px 5%;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .hero h2 {
+                font-size: 23px;
+            }
+
+            .hero-content {
+                padding: 30px 20px;
+            }
+
+            .service-container {
+                grid-template-columns: 1fr;
+            }
+
+            .tentang {
+                padding: 60px 8%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">PUTRA SANTANA TEKNIK</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>PUTRA SANTANA TEKNIK</h1>
+            <h2>Air Conditioner & Elektronik Service</h2>
+            <p>
+                Melayani berbagai kebutuhan service AC dan elektronik
+                dengan tenaga teknisi berpengalaman dan pelayanan terbaik.
+            </p>
+            <p>
+                📍 Jl. Bengawan Solo Gang Kenari 1 Jrebeng Wetan,
+                Kedupok - Kota Probolinggo
+            </p>
+            <a href="#layanan" class="btn">Lihat Layanan</a>
+            <a href="https://wa.me/628976300677" class="btn btn-wa" target="_blank">💬 Hubungi WhatsApp</a>
+        </div>
+    </section>
+
+    <section class="layanan" id="layanan">
+        <h2>Layanan Kami</h2>
+        <div class="service-container">
+
+            <div class="service-card">
+                <h3>❄️ Pasang AC</h3>
+                <p>Melayani pemasangan AC baru maupun AC second dengan pemasangan yang rapi.</p>
+                <div class="price">Rp 250.000</div>
+            </div>
+
+            <div class="service-card">
+                <h3>🧹 Cleaning AC</h3>
+                <p>Membersihkan AC agar tetap bersih, nyaman dan bekerja dengan optimal.</p>
+                <div class="price">Rp 50.000</div>
+            </div>
+
+            <div class="service-card">
+                <h3>🔧 Isi / Tambah Freon</h3>
+                <p>Melayani pengisian dan penambahan freon untuk berbagai jenis AC.</p>
+                <div class="price">Rp 100.000</div>
+            </div>
+
+            <div class="service-card">
+                <h3>❄️ Service Kulkas</h3>
+                <p>Perbaikan dan perawatan kulkas serta freezer.</p>
+                <div class="price">Hubungi Kami</div>
+            </div>
+
+            <div class="service-card">
+                <h3>🧺 Service Mesin Cuci</h3>
+                <p>Melayani perbaikan berbagai masalah pada mesin cuci.</p>
+                <div class="price">Hubungi Kami</div>
+            </div>
+
+            <div class="service-card">
+                <h3>📺 Service TV LED</h3>
+                <p>Melayani service TV LED dan berbagai peralatan elektronik lainnya.</p>
+                <div class="price">Hubungi Kami</div>
+            </div>
+
+            <div class="service-card">
+                <h3>⚡ Instalasi Listrik</h3>
+                <p>Melayani pemasangan, perbaikan, dan perawatan instalasi listrik rumah maupun kantor secara aman.</p>
+                <div class="price">Hubungi Kami</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="tentang" id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>
+            Putra Santana Teknik merupakan jasa service AC dan elektronik
+            yang melayani masyarakat Kota Probolinggo dan sekitarnya.
+            Kami menyediakan layanan pemasangan, perawatan dan perbaikan
+            AC serta berbagai peralatan elektronik.
+        </p>
+        <br>
+        <h3>🛠️ Garansi Servis 1 Bulan</h3>
+    </section>
+
+    <section class="kontak" id="kontak">
+        <h2>Hubungi Kami</h2>
+        <p>Untuk informasi dan pemesanan jasa, silakan hubungi:</p>
+        <div class="nomor">📞 08976300677</div>
+        <div class="nomor">📞 081233465899</div>
+        <a href="https://wa.me/628976300677" class="btn btn-wa" target="_blank">Chat WhatsApp Sekarang</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Putra Santana Teknik | Air Conditioner & Elektronik Service</p>
+    </footer>
+
+</body>
+</html>
